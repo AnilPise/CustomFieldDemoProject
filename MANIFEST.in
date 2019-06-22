@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cust_field *.css
+recursive-include cust_field *.csv
+recursive-include cust_field *.html
+recursive-include cust_field *.ico
+recursive-include cust_field *.js
+recursive-include cust_field *.json
+recursive-include cust_field *.md
+recursive-include cust_field *.png
+recursive-include cust_field *.py
+recursive-include cust_field *.svg
+recursive-include cust_field *.txt
+recursive-exclude cust_field *.pyc
