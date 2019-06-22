@@ -26,6 +26,9 @@ def cre_custm(doc,method=None):
    		new_cus.first_name = full_name[0]
    new_cus.insert()
    frappe.db.commit()
+
+
+   print('Test')
    print("Full name of customer    =>  "+doc.customer_name)
    print('************************** '+doc.email+ '   **************************')	
    frappe.msgprint('Successfully Created............')
